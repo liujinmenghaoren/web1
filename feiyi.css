@@ -1,0 +1,317 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.all {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+
+/*对 header 部分设置样式*/
+
+.header {
+	margin: 0 auto;
+}
+.header-top {
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #dadada;
+}
+.header-login-ul {
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+}
+.header-login-ul li {
+	float: right;
+	list-style-type: none;
+	margin-right: 22px;
+}
+.header-login-ul a {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: black;
+	line-height: 36px;
+}
+
+.header-login-ul i {
+	color: #d03d3d;
+	height: 20px;
+	display: inline-block;
+}
+
+/* header-bottom */
+
+.header-bottom {
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.header-logo {
+	width: 236px;
+	height: 70px;
+	float: left;
+}
+ul>li {
+	display: inline-block;
+	list-style-type: none;
+}
+.header-bottom-ul {
+	margin-top: 20px;
+	float: left;
+	display: inline-block;
+}
+.header-bottom-ul li {
+	padding:0 36px;
+	float: left;
+	border-right: 3px solid black;
+}
+body .all .li-border {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+.header-bottom-ul a {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: black;
+}
+.header form {
+	float: left;
+	border: 1px solid #d03d3d;
+	margin-top: 16px;
+}
+.header form input[type=button] {
+	width: 28px;
+	height: 28px;
+	background-color: #D03D3D;
+	background-image: url(../image/feiyi/search.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+	float: left;
+}
+.header form input[type=text] {
+	height: 28px;
+	border: none;
+	float: left;
+}
+.header-last {
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.auto-size {
+	display: block;
+	width: auto;  
+	height: auto;  
+	max-width: 100%;  
+	max-height: 100%;
+}
+.image-arrow .left {
+	float: left;
+	margin-left: 90px;
+}
+.image-arrow .right {
+	float: right;
+	margin-right: 90px;
+}
+.image-arrow {
+	width: 100%;
+	position: absolute;
+	top: 150px
+}
+.image-text {
+	position: absolute;
+	top: 24px;
+	left: 52%;
+}
+
+/*对 middle 部分的样式设置*/
+
+.middle>div {
+	width: 100%;
+	height: 1080px;
+}
+.middle-lace {
+	text-align: center;
+}
+.middle-lace>p {
+	font-size: 36px;
+	margin-top: -96px;
+	margin-bottom: 20px;
+}
+.middle-lace>p>span {
+	font-size: 20px;
+}
+.middle-divs {
+	width: 1200px;
+	margin: 10px auto 0;
+}
+.middle-divs p {
+	display: none;
+}
+.middle-divs:hover p {
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 2.6em;
+	background-color: #cb5555;
+}
+.middle-divs p.big-text {
+	font-size: 16px;
+}
+.middle-divs div, .tuihuo-ul>li>img, .tuihuo-ul>li>p {
+	float: left;
+}
+.middle-divs-first {
+	width: 498px;
+	height: 498px;
+	background-image: url(../image/feiyi/middle-1.png);
+	background-position: center;
+}
+.middle-divs-second {
+	width: 694px;
+	height: 498px;
+	margin-left: 8px;
+}
+.divs-float {
+	float: left;
+	width: 342px;
+	height: 243px;
+	background-position: center;
+}
+.second-one {
+	background-image: url(../image/feiyi/middle-2.png);
+}
+.second-two {
+	margin-left: 8px;
+	background-image: url(../image/feiyi/middle-3.png);
+}
+.second-three {
+	margin-top: 8px;
+	background-image: url(../image/feiyi/middle-4.png);
+}
+.second-four {
+	margin-top: 8px;
+	margin-left: 8px;
+	background-image: url(../image/feiyi/middle-5.png);
+}
+.middle-divs-four {
+	width: 498px;
+	height: 498px;
+	background-image: url(../image/feiyi/middle-1.png);
+	background-position: center;
+}
+.middle-divs-three {
+	width: 694px;
+	height: 498px;
+	margin-left: 8px;
+}
+
+/* 对 footer 部分样式设置*/
+
+.footer {
+	width: 100%;
+	height: 850px;
+}
+.footer form {
+	text-align: center;
+}
+.footer form input {
+	background-color: #d03d3d;
+	border: none;
+	color: white;
+	width: 240px;
+	height: 64px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	border-radius: 5px;
+}
+.footer-icons {
+	background-color: #606060;
+	height: 136px;
+	padding-top: 16px;
+	margin-top: 40px;
+}
+.footer-icons i {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	font-size: 80px;
+}
+.footer-icons .icon-huiyuan {
+	color: #f5ab16;
+}
+.footer-icons ul {
+	margin-left: 150px;
+}
+.footer-icons ul li {
+	margin-right: 150px;
+	text-align: center;
+	color: white;
+}
+.footer>p {
+	text-align: center;
+	color: #d03d3d;
+	font-size: 14px;
+	padding: 14px 0;
+	background-color: #cbcbcb;
+	margin-bottom: 60px;
+}
+.tuihuo {
+	height: 150px;
+	width: 100%;
+	/*background-color: #D03D3D;*/
+	border-top: 2px solid #e3e2e2;
+}
+.tuihuo-ul {
+	margin: 40px auto;
+	width:1034px;
+}
+.tuihuo-ul>li {
+	margin-right: 44px;
+	border-right: 1px solid #c8c8c8;
+}
+.tuihuo-ul>li>p {
+	margin: 10px 40px 0 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.span-first {
+	font-weight: bold;
+}
+.span-second {
+	font-weight: normal;
+	color: #9f9f9f;
+}
+.footer>.more{
+	padding-top: 20px;
+	width: 100%;
+	height: 324px;
+	background-color: #3a3a3a;
+}
+.more-align {
+	
+	font-family: "微软雅黑";
+	color: white;
+	text-align: center;
+}
+.more-align>p {
+	font-size: 16px;
+	margin-top: 36px;
+	margin-bottom: 24px;
+}
+.more-align a {
+	display: inline-block;
+	border-right: 1px solid white;
+	color: white;
+	font-size: 14px;
+	padding: 0 10px;
+}
